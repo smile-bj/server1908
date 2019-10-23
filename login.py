@@ -11,9 +11,7 @@ class Database:
     def close(self):
         self.cur.close()
         self.db.close()
-    def register(self,name,passwd):
+  
 
-if __name__ == '__main__':
-    db=Database()
 
 
