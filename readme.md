@@ -7,4 +7,6 @@
 ![](./rain.ipg)
 
 
+print("你好　Pyhton")
+
 
