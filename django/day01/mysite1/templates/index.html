@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block mytitle %}
+    <title>1908</title>
+    {% endblock %}
+</head>
+<body>
+<a href="/index"></a>
+<a href="/sports">体育平道</a>
+<a href="/music">音乐频道</a>
+<a href="{% url 'page' '100' %}">反向解析</a>
+{% block info %}
+    欢迎来到1908
+{% endblock %}
+</body>
+</html>
